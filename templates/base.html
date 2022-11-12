@@ -11,8 +11,10 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="{% static 'css/style.css' %}" rel="stylesheet">
     <link href="{% static 'css/base.css' %}" rel="stylesheet">
     <link href="{% static 'css/home.css' %}" rel="stylesheet">
+    
 </head>
 
 
@@ -20,22 +22,22 @@
 
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="{% url 'home' %}"><span id="fb">face</span><span
-                    id="twitter">Twitter</span><span id="ig">Gram</span></a>
+            <a class="navbar-brand" href="{% url 'home' %}"><span class="blue">face</span><span
+                class="red">Twitter</span><span class="green">Gram</span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <!-- <span class="navbar-toggler-icon"></span> -->
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="{% url 'share_list' %}">Home</a>
+                <!-- <a class="nav-link active" aria-current="page" href="{% url 'share_list' %}">Home</a> -->
                     {% if user.is_authenticated %}
                     <a class="nav-link" href="{% url 'share_new' %}">+New</a>
                     <a class="nav-link" href="{% url 'edit_profile' %}">EDit</a>
                     <a class="nav-link" href="{% url 'logout' %}">Logout</a>
                     {% else %}
-                    <a class="nav-link" href="{% url 'login' %}">Login</a> -->
-                    <a class="nav-link" href="{% url 'signup' %}">Signup</a> -->
+                    <!-- <a class="nav-link" href="{% url 'login' %}">Login</a>  -->
+                    <!-- <a class="nav-link" href="{% url 'signup' %}">Signup</a> -->
                     {% endif %}
                     <!-- <a class="nav-link" href="{% url 'home' %}">Home</a> -->
                     <!-- <a class="nav-link" href="{% url 'about' %}">About</a> -->

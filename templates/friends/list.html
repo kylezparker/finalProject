@@ -31,8 +31,7 @@ method="POST">
 <br />
 
 <hr>
-<form action="{% url 'share_likes' share.pk %}"
-method="POST">
+
 {% csrf_token %}
 <button type="submit", name="share_id", value="{{ share.id }}", class="btn btn-primary btn-sm">Like</button>
 </form>

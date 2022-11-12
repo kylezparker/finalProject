@@ -2,15 +2,15 @@
 {% block title %}Home{% endblock title %}
 {% block content %}
 <div id="cont">
-    <p class="welcome">Welcome to <span id="blue">face</span><span id="red">Twitter</span><span id="green">Gram</span>
+    <p class="welcome">Welcome to <span class="blue">face</span><span class="red">Twitter</span><span class="green">Gram</span>
     </p>
-    <p>Connect with the <span style="font-weight:500;">world</span> and your <span
-            style="font-weight:500;">friends</span></p>
+    <p class="connect">Connect with the <span id="world">world</span> and your <span
+            id="friends">friends</span></p>
     <br />
-    <p id="inm">Over 10 million test<span style="font-weight:500;">daily</span> users</p>
+    <p class="tenMil">Over <span class="millions">10,000,000</span> <span style="font-weight:500;">daily</span> users!</p>
     <br />
 </div>
-<div class="logreg homePad">
+<div class="homePgBtns">
     <a href="{% url 'login' %}" class="btn btn-primary">Login</a>
     <a href="{% url 'signup' %}" class="btn btn-success">Register</a>
 
@@ -18,6 +18,6 @@
 <br />
 <br />
 <br />
-<p style="text-align:center;font-weight:500;">©2022 faceTwitterGram, Inc. No rights reserved.</p>
+<p class="copy" style="text-align:center;">©2022 faceTwitterGram, Inc. No rights reserved.</p>
 
 {% endblock content %}

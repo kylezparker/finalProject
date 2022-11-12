@@ -1,0 +1,111 @@
+
+
+
+/* for logo */
+.green{
+    font-weight:550;
+color:green;
+letter-spacing:1px;
+word-spacing:1px;
+}
+.red{
+    font-weight:550;
+color:red;
+letter-spacing:1px;
+word-spacing:1px;
+}
+.blue{
+    font-weight:550;
+color:blue;
+letter-spacing:1px;
+word-spacing:1px;
+}
+
+
+
+/* for homepage */
+#cont{
+    padding-top:70px;
+    text-align:center;
+}
+
+.homePgBtns{
+    text-align:center;
+}
+.welcome{
+    font-size:25px;
+
+}
+#world{
+    color:blue;
+    font-weight:550;
+}
+#friends{
+    color:green;
+    font-weight:550;
+}
+.connect{
+    font-size:25px;
+}
+.tenMil{
+    font-size:20px;
+}
+.millions{
+    color:red;
+    font-weight:550;
+}
+.copy{
+    font-weight:500;
+}
+
+
+
+
+/* termsofservice */
+.head{
+    text-align:center;
+    padding-top:70px;
+    font-size:25px;
+}
+.unlike{
+    font-size:20px;
+text-align:center;
+}
+.hate{
+    padding-top:30px;
+    font-size:20px;
+    text-align:center;
+}
+#hate{
+    font-weight:550;
+    color:red;
+}
+#violence{
+    font-weight:550;
+    color:red;
+}
+.violence{
+    font-size:20px;
+    text-align:center;
+}
+.who{
+    padding-top:30px;
+    font-size:20px;
+    text-align:center;
+
+}
+#secret{
+    font-weight:550;
+color:blue;
+}
+#judges{
+    font-weight:550;
+color:green;
+}
+.judges{
+    font-size:20px;
+    text-align:center;
+}
+.body{
+    padding-top:30px;
+}
