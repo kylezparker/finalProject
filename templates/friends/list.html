@@ -8,7 +8,7 @@
     <div class=" card-body">
         <h5 class="card-title" >{{ share.author }}</h5>
         <img src="{{ share.author.profile.profile_img.url }}" width=30 height=30 class="rounded-circle">
-        <a href="{% url 'show_profile_page' share.author.profile.id %}">Profile Page</a> 
+        <a href="#">Profile Page</a> 
         <!-- <h6 class="card-subtitle mb-2 text-muted">{{ article.subtitle }}</h6> -->
         <p class="card-text" style="font-size:20px;">{{ share.body|truncatechars:500 }}</p>
         <img src="{{ share.image }}">
