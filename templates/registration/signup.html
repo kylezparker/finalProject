@@ -3,7 +3,7 @@
 {% block content %}
 <h1 style="padding-top:25px; padding-bottom:15px;font-weight:550;">Registration</h1>
 <div class="card">
-    <form class="card-body" style="font-weight:550;border:5px solid rgb(66, 103, 178);" method="POST">
+    <form class="card-body" style="font-weight:550;border:3px solid blue;" method="POST">
         {% csrf_token %}
         {{ form.as_p }}
         <input style="margin-top:20px;" type="submit" value="Register" class="btn btn-success">
